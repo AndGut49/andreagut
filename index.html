@@ -1,40 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My custom Bulma website</title>
-    <link rel="stylesheet" href="scss/styles.css">
-  </head>
-  <body>
-     <h1 class="title">
-        Bulma
-      </h1>
 
-      <p class="subtitle">
-        Modern CSS framework based on <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox">Flexbox</a>
-      </p>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="src/logo.ico">
+  <title>Andrea Gutierrez</title>
+  <link rel="stylesheet" href="scss/styles.css">
+</head>
 
-      <div class="field">
-        <div class="control">
-          <input class="input" type="text" placeholder="Input">
+<body>
+  <header>
+    <nav class="navbar is-info is-fixed-top" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://andgut49.github.io/andreagut/">
+          <img src="src/logo.png" width="60" height="60">
+        </a>
+        <div class="navbar-item">
+          <div class="flex-title">
+            <span>Andrea</span>
+            <span>Gutierrez</span>
+          </div>
+          
+        </div>
+
+        <a role="button" class="navbar-burger navbar-end" aria-label="menu" aria-expanded="false"
+          data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item">
+            Acerca
+          </a>
+
+          <a class="navbar-item">
+            Proyectos
+          </a>
+
+          <a class="navbar-item">
+            Contacto
+          </a>
+
         </div>
       </div>
+    </nav>
 
-      <div class="field">
-        <p class="control">
-          <span class="select">
-            <select>
-              <option>Select dropdown</option>
-            </select>
-          </span>
-        </p>
-      </div>
+  </header>
+  <section>
+    <div class="main-background flex-container">
+      <p>
+        Hola, mi nombre es Andrea Gutierrez.
+        Soy desarrolladora web en la Ciudad de México
+        y en el Estado de México. Tengo habilidades que he adquirido
+        a través de cursos de desarrollo web, UX/UI y en
+        metodologías ágiles.
+      </p>
+      
+        <h1>Gracias por visitar mi portafolio</h1>
+      
+    </div>
+  </section>
+  </div>
 
-      <div class="buttons">
-        <a class="button is-primary">Primary</a>
-        <a class="button is-link">Link</a>
-      </div>
-  </body>
+
+
+
+
+
+
+
+
+</body>
+
 </html>

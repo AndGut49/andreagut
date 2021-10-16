@@ -1,0 +1,23 @@
+.main-background{
+background-image: url('../../src/home-background.png');
+   width: 100%;
+   height: 100%;;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10%;
+}
+.flex-container p{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.flex-container h1{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}

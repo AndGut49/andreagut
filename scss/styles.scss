@@ -1,6 +1,13 @@
 @charset "utf-8";
-@import "../node_modules/bulma/bulma.sass";
+@import "components/colors";
+@import "components/header";
+@import "components/mainsection";
+
+
 
 body{
-    background-color: yellow;
+    background-color:$primarylight;
 }
+
+@import "../node_modules/bulma/bulma.sass";
+@import "../node_modules/bulma/sass/components/navbar.sass";
